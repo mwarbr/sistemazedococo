@@ -1,0 +1,37 @@
+Sistema de Estoque
+
+Idade: 18+
+Escolaridade: Ensino Médio+
+Plataformas: Desktop e Mobile (Android)
+
+Levantamento de Requisitos
+
+Regras de Negócio						Requisitos de Sistema
+- Promoção compre 3 pague 2					- Controle de estoque
+- Recebe apenas em dinheiro					- Controle de acesso
+- Entrega o côco após o pagamento			
+
+Orçamento: R$ 2500,00 - Precificação
+	- Calcular o valor da sua hora
+		- Salário Mensal(acordo com o mercado) / horas trabalhadas no mês
+			3500,00 / 160h = R$ 25,00 (Jr)
+		
+		- Custos Mensais
+			- Alimentação
+			- Treinamentos
+			- Aluguel....
+
+	- Calcular pelo tempo gasto - define o tempo para desenvolver
+		- 20h * 1.3 -  para o controle de acesso
+		- 25,00 * 26h = R$ 650,00 * 1.3 = R$ 850,00
+
+	- Ponto de Função (complexidade) - Analista de Sistema
+		- 13 * 250 = 3250,00
+
+MVP 
+	1 - Controle de Acesso (login/senha) - R$ 850,00
+	2 - Controle de Estoque - R$ 1500,00
+		- R$ 2500,00
+
+Programação ou Telas 
+
