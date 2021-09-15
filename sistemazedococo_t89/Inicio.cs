@@ -22,7 +22,7 @@ namespace sistemazedococo_t89
             InitializeComponent();
 
             // Carregamos a tela de Menu ao abrir o programa
-            CarregaTela( new Menus() );
+            CarregaTela( new Login() );
         }
 
         /// <summary>

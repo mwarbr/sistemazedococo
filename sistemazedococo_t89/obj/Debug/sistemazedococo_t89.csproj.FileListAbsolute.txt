@@ -19,3 +19,4 @@ C:\laragon\www\Projetos\sistemazedococo\sistemazedococo_t89\obj\Debug\sistemazed
 C:\laragon\www\Projetos\sistemazedococo\sistemazedococo_t89\obj\Debug\sistemazedococo_t89.csproj.CoreCompileInputs.cache
 C:\laragon\www\Projetos\sistemazedococo\sistemazedococo_t89\obj\Debug\sistemazedococo_t89.exe
 C:\laragon\www\Projetos\sistemazedococo\sistemazedococo_t89\obj\Debug\sistemazedococo_t89.pdb
+C:\laragon\www\Projetos\sistemazedococo\sistemazedococo_t89\obj\Debug\sistemazedococo_t89.Login.resources

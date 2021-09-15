@@ -103,6 +103,16 @@ namespace sistemazedococo_t89.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundoLogin {
+            get {
+                object obj = ResourceManager.GetObject("fundoLogin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundoPerfil {
             get {
                 object obj = ResourceManager.GetObject("fundoPerfil", resourceCulture);
