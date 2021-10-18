@@ -30,12 +30,13 @@ namespace sistemazedococo_t89
         private void InitializeComponent()
         {
             this.painelLogin = new System.Windows.Forms.Panel();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.btnEntrar = new System.Windows.Forms.Button();
-            this.btnCadastrar = new System.Windows.Forms.Button();
-            this.btnRecuperar = new System.Windows.Forms.Button();
             this.btnGoogle = new System.Windows.Forms.Button();
+            this.btnRecuperar = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.btnEntrar = new System.Windows.Forms.Button();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.lblMensagem = new System.Windows.Forms.Label();
             this.painelLogin.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,6 +45,7 @@ namespace sistemazedococo_t89
             this.painelLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.painelLogin.BackgroundImage = global::sistemazedococo_t89.Properties.Resources.fundoLogin;
             this.painelLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.painelLogin.Controls.Add(this.lblMensagem);
             this.painelLogin.Controls.Add(this.btnGoogle);
             this.painelLogin.Controls.Add(this.btnRecuperar);
             this.painelLogin.Controls.Add(this.btnCadastrar);
@@ -55,54 +57,19 @@ namespace sistemazedococo_t89
             this.painelLogin.Size = new System.Drawing.Size(400, 308);
             this.painelLogin.TabIndex = 0;
             // 
-            // txtUsuario
+            // btnGoogle
             // 
-            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsuario.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(92)))), ((int)(((byte)(9)))));
-            this.txtUsuario.Location = new System.Drawing.Point(126, 110);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(166, 14);
-            this.txtUsuario.TabIndex = 1;
-            // 
-            // txtSenha
-            // 
-            this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSenha.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(92)))), ((int)(((byte)(9)))));
-            this.txtSenha.Location = new System.Drawing.Point(126, 146);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(166, 14);
-            this.txtSenha.TabIndex = 1;
-            this.txtSenha.UseSystemPasswordChar = true;
-            // 
-            // btnEntrar
-            // 
-            this.btnEntrar.BackColor = System.Drawing.Color.Transparent;
-            this.btnEntrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEntrar.FlatAppearance.BorderSize = 0;
-            this.btnEntrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnEntrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEntrar.Location = new System.Drawing.Point(121, 178);
-            this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(75, 23);
-            this.btnEntrar.TabIndex = 2;
-            this.btnEntrar.UseVisualStyleBackColor = false;
-            // 
-            // btnCadastrar
-            // 
-            this.btnCadastrar.BackColor = System.Drawing.Color.Transparent;
-            this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCadastrar.FlatAppearance.BorderSize = 0;
-            this.btnCadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnCadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastrar.Location = new System.Drawing.Point(222, 178);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
-            this.btnCadastrar.TabIndex = 2;
-            this.btnCadastrar.UseVisualStyleBackColor = false;
+            this.btnGoogle.BackColor = System.Drawing.Color.Transparent;
+            this.btnGoogle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGoogle.FlatAppearance.BorderSize = 0;
+            this.btnGoogle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnGoogle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnGoogle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGoogle.Location = new System.Drawing.Point(107, 256);
+            this.btnGoogle.Name = "btnGoogle";
+            this.btnGoogle.Size = new System.Drawing.Size(201, 21);
+            this.btnGoogle.TabIndex = 2;
+            this.btnGoogle.UseVisualStyleBackColor = false;
             // 
             // btnRecuperar
             // 
@@ -118,19 +85,65 @@ namespace sistemazedococo_t89
             this.btnRecuperar.TabIndex = 2;
             this.btnRecuperar.UseVisualStyleBackColor = false;
             // 
-            // btnGoogle
+            // btnCadastrar
             // 
-            this.btnGoogle.BackColor = System.Drawing.Color.Transparent;
-            this.btnGoogle.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGoogle.FlatAppearance.BorderSize = 0;
-            this.btnGoogle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnGoogle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnGoogle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGoogle.Location = new System.Drawing.Point(107, 256);
-            this.btnGoogle.Name = "btnGoogle";
-            this.btnGoogle.Size = new System.Drawing.Size(201, 21);
-            this.btnGoogle.TabIndex = 2;
-            this.btnGoogle.UseVisualStyleBackColor = false;
+            this.btnCadastrar.BackColor = System.Drawing.Color.Transparent;
+            this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCadastrar.FlatAppearance.BorderSize = 0;
+            this.btnCadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnCadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Location = new System.Drawing.Point(222, 178);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadastrar.TabIndex = 2;
+            this.btnCadastrar.UseVisualStyleBackColor = false;
+            // 
+            // btnEntrar
+            // 
+            this.btnEntrar.BackColor = System.Drawing.Color.Transparent;
+            this.btnEntrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEntrar.FlatAppearance.BorderSize = 0;
+            this.btnEntrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnEntrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntrar.Location = new System.Drawing.Point(121, 178);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(75, 23);
+            this.btnEntrar.TabIndex = 2;
+            this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
+            // 
+            // txtSenha
+            // 
+            this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSenha.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(92)))), ((int)(((byte)(9)))));
+            this.txtSenha.Location = new System.Drawing.Point(126, 146);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(166, 14);
+            this.txtSenha.TabIndex = 1;
+            this.txtSenha.UseSystemPasswordChar = true;
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsuario.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(92)))), ((int)(((byte)(9)))));
+            this.txtUsuario.Location = new System.Drawing.Point(126, 110);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(166, 14);
+            this.txtUsuario.TabIndex = 1;
+            // 
+            // lblMensagem
+            // 
+            this.lblMensagem.AutoSize = true;
+            this.lblMensagem.BackColor = System.Drawing.Color.Transparent;
+            this.lblMensagem.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensagem.Location = new System.Drawing.Point(99, 70);
+            this.lblMensagem.Name = "lblMensagem";
+            this.lblMensagem.Size = new System.Drawing.Size(0, 14);
+            this.lblMensagem.TabIndex = 3;
             // 
             // Login
             // 
@@ -158,5 +171,6 @@ namespace sistemazedococo_t89
         private System.Windows.Forms.Button btnRecuperar;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnEntrar;
+        private System.Windows.Forms.Label lblMensagem;
     }
 }

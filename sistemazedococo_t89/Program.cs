@@ -18,7 +18,7 @@ namespace sistemazedococo_t89
             Application.SetCompatibleTextRenderingDefault(false);
             
             // Seleciona qual tela será aberta inicialmente 
-            Application.Run(new Inicio());
+            Application.Run( new Atividades_if_else() );
         }
     }
 }
