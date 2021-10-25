@@ -84,6 +84,7 @@ namespace sistemazedococo_t89
             this.button1.TabIndex = 3;
             this.button1.Text = "Ver qual o maior";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
@@ -115,10 +116,10 @@ namespace sistemazedococo_t89
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(306, 109);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(222, 26);
+            this.label5.Size = new System.Drawing.Size(223, 39);
             this.label5.TabIndex = 0;
-            this.label5.Text = "2) Compare o ANO de Nascimento do usuário\r\npara saber se em 2022 ele poderá votar" +
-    ".";
+            this.label5.Text = "2)Calcule a idade do usuário baseando-se no \r\nANO de Nascimento do usuário\r\npara " +
+    "saber se em 2022 ele poderá votar.";
             // 
             // textBox3
             // 
@@ -161,11 +162,12 @@ namespace sistemazedococo_t89
             this.button2.TabIndex = 3;
             this.button2.Text = "Pode Votar?";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(366, 225);
+            this.label8.Location = new System.Drawing.Point(361, 220);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 4;
@@ -206,11 +208,12 @@ namespace sistemazedococo_t89
             this.button3.TabIndex = 3;
             this.button3.Text = "Calcular Total e Brindes";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(634, 215);
+            this.label12.Location = new System.Drawing.Point(564, 220);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(35, 13);
             this.label12.TabIndex = 4;
